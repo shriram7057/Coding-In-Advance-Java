@@ -1,0 +1,15 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "VJ TECH ACADEMY/UNIT-5_INTERACTING_WITH_DATABASE",
+        "VJ TECH ACADEMY/UNIT-4_NETWORKING_BASICS",
+        "VJ TECH ACADEMY/UNIT-3_EVENT_HANDLING",
+        "VJ TECH ACADEMY/UNIT-2_SWING",
+        "VJ TECH ACADEMY/UNIT-1_AWT",
+        "SWING",
+        "OOP Concepts",
+        "Clg_Programs",
+        "AWT",
+        "Layout_Managers"
+    ]
+}
