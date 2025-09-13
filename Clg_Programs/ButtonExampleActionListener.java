@@ -4,7 +4,7 @@ public class ButtonExampleActionListener
 { 
      public static void main(String[] args) 
 { 
-    JFrame f=new JFrame("Button Example"); 
+    JFrameDemo f=new JFrameDemo("Button Example"); 
     final JTextField tf=new JTextField(); 
     tf.setBounds(50,50, 200,20); 
     JButton b=new JButton("Click Here");

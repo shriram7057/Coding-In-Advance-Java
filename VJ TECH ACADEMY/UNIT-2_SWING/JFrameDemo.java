@@ -1,5 +1,5 @@
 import javax.swing.*;
-class JFrameDemo extends JFrame
+class JFrameDemo extends JFrameDemo
 {
   JFrameDemo()
   {
@@ -11,6 +11,6 @@ class JFrameDemo extends JFrame
     j.setVisible(true);
     j.setTitle("JFrameWindow");
     j.setSize(500, 500);
-    j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    j.setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
   }
 }

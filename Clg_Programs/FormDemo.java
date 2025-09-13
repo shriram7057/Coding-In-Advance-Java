@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-class FormDemo extends JFrame  
+class FormDemo extends JFrameDemo  
 {
     FormDemo()
     {

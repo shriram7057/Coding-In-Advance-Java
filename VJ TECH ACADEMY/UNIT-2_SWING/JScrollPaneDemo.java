@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
-class JScrollPaneDemo extends JFrame
+class JScrollPaneDemo extends JFrameDemo
 {
     JScrollPaneDemo()
     {

@@ -5,7 +5,7 @@ public class JListExampleAL
 { 
     JListExampleAL()
 {
-     JFrame f= new JFrame(); 
+     JFrameDemo f= new JFrameDemo(); 
      final JLabel label = new JLabel();
       label.setSize(500,100); 
 

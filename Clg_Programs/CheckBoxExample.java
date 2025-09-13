@@ -3,7 +3,7 @@ public class CheckBoxExample
 { 
     CheckBoxExample()
 { 
-    JFrame f= new JFrame("CheckBox Example"); 
+    JFrameDemo f= new JFrameDemo("CheckBox Example"); 
     JCheckBox checkBox1 = new JCheckBox("C++"); 
 
     checkBox1.setBounds(100,100, 50,50); 

@@ -1,6 +1,6 @@
 import javax.swing.*; 
 import java.awt.event.*; 
-class RadioButtonExampleAL extends JFrame implements ActionListener
+class RadioButtonExampleAL extends JFrameDemo implements ActionListener
 { 
             JRadioButton rb1,rb2; 
             JButton b; 

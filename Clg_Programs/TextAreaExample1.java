@@ -7,7 +7,7 @@ public class TextAreaExample1 implements ActionListener
     JButton b;
     TextAreaExample1()
     { 
-      JFrame f = new JFrame();
+      JFrameDemo f = new JFrameDemo();
         l1=new JLabel();
         l1.setBounds(50,25,100,30);
         l2=new JLabel();

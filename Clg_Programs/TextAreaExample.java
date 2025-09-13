@@ -3,7 +3,7 @@ public class TextAreaExample
 {
     TextAreaExample()
     {
-        JFrame f=new JFrame();
+        JFrameDemo f=new JFrameDemo();
         JTextArea area=new JTextArea("Welcome to Shriram Study room!!");
         area.setBounds(10,30,200,200);
 

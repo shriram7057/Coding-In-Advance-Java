@@ -3,7 +3,7 @@ class LabelExample2 //Program
 {
     public static void main(String args[]) 
 { 
-    JFrame f= new JFrame("Swing Label Example"); 
+    JFrameDemo f= new JFrameDemo("Swing Label Example"); 
         JLabel l1,l2; 
         l1=new JLabel("First Label."); 
         l1.setBounds(50,50, 100,30); 

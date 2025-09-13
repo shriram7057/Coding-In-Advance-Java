@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
-class ButtonDemo extends JFrame
+class ButtonDemo extends JFrameDemo
 {
     ButtonDemo()
     {

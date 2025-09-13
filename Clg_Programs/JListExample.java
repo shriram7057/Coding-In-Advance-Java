@@ -3,7 +3,7 @@ public class JListExample
 {
      JListExample()
 { 
-    JFrame f= new JFrame(); 
+    JFrameDemo f= new JFrameDemo(); 
         DefaultListModel<String> l1 = new DefaultListModel<>(); 
         l1.addElement("Comp");
         l1.addElement("Chem"); 
@@ -18,7 +18,7 @@ public class JListExample
 
         f.setLayout(null); 
         f.setVisible(true); 
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+        f.setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE); 
 } 
 public static void main(String args[]) 
 {

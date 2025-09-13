@@ -1,11 +1,11 @@
 import java.awt.*;
 import javax.swing.*;
-class JframeExample2 extends JFrame
+class JframeExample2 extends JFrameDemo
 {
     JframeExample2()
     {
         setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setBounds(100,100,600,500);
         setTitle("Introducton to JFrame");
         java.awt.Container c=getContentPane();

@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
-public class JPasswordExample extends JFrame 
+public class JPasswordExample extends JFrameDemo 
 {
     JPasswordExample()
     {
     setVisible(true);
-    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
     setBounds(100,100,600,500);
     java.awt.Container c=getContentPane();
 

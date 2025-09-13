@@ -2,10 +2,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class MyGridLayout {
-  JFrame f;
+  JFrameDemo f;
 
   MyGridLayout() {
-    f = new JFrame();
+    f = new JFrameDemo();
 
     JButton b1 = new JButton("1");
     JButton b2 = new JButton("2");

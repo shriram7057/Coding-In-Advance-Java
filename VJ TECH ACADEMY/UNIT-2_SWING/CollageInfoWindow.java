@@ -1,10 +1,10 @@
 //SImple Program to display the collage information
 import java.awt.*;
 import javax.swing.*;
-class CollageInfoWindow extends JFrame {
+class CollageInfoWindow extends JFrameDemo {
     public static void main(String[] args) throws Exception{
         // Creating a JFrame window
-        JFrame frame = new JFrame("College Information");
+        JFrameDemo frame = new JFrameDemo("College Information");
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setSize(400, 300);
 

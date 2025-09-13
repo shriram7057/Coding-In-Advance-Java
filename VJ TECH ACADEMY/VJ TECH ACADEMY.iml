@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Layout_Managers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UNIT-1_AWT" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UNIT-2_SWING" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UNIT-3_EVENT_HANDLING" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UNIT-4_NETWORKING_BASICS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UNIT-5_INTERACTING_WITH_DATABASE" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

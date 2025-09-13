@@ -1,6 +1,6 @@
 import javax.swing.*; 
 import java.awt.event.*;
-public class CheckBoxExampleFood extends JFrame implements ActionListener
+public class CheckBoxExampleFood extends JFrameDemo implements ActionListener
 { 
     JLabel l;
      JCheckBox cb1,cb2,cb3; 

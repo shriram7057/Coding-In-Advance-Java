@@ -3,10 +3,10 @@ import java.awt.*;
 
 public class JComboBoxExample
 { 
-            JFrame f; 
+            JFrameDemo f; 
         JComboBoxExample()
         { 
-            f=new JFrame("JComboBox Example"); 
+            f=new JFrameDemo("JComboBox Example"); 
         String country[]={"India","Aus","U.S.A","England","Newzealand"}; 
 
         JComboBox cb=new JComboBox(country); 

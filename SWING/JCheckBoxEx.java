@@ -1,13 +1,12 @@
 import java.awt.*;
 import javax.swing.*;
-
-public class JCheckBoxEx extends JFrame 
+public class JCheckBoxEx extends JFrameDemo 
 {
 
     JCheckBoxEx() 
     {
        
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setBounds(100, 100, 600, 500);
         java.awt.Container c = getContentPane();
         c.setLayout(null);

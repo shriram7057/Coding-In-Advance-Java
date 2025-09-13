@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class SwingComponents extends JFrame implements ActionListener 
+class SwingComponents extends JFrameDemo implements ActionListener 
 {
     JLabel l1, l2, l3, l4, l5, l6, l7, l8;
     JTextField jtf1, jtf2, jtf3;
@@ -200,7 +200,7 @@ class SwingComponents extends JFrame implements ActionListener
         setVisible(true);
         setTitle("Swing Components Example");
         setSize(700, 600);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);  
     }
 
     public void actionPerformed(ActionEvent e) 

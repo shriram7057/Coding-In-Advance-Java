@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
-public class BasicCal extends Frame implements ActionListener{
+public class BasicCal extends Frame implements ActionListener
+{
     Label l1=new Label("Num1");
     Label l2=new Label("Num2");
     Label l3=new Label("Result");
@@ -15,7 +16,8 @@ public class BasicCal extends Frame implements ActionListener{
     Button b4=new Button("Div");
     Button b5=new Button("Exit");
 
-    BasicCal(){
+    BasicCal()
+    {
         l1.setBounds(50,100,100,20);
         l2.setBounds(50,140,100,20);
         l3.setBounds(50,180,100,20);
@@ -44,29 +46,36 @@ public class BasicCal extends Frame implements ActionListener{
         setVisible(true);
 
     }
-    public void actionPerformed(ActionEvent e){
+    public void actionPerformed(ActionEvent e)
+    {
         int num1=Integer.parseInt(t1.getText());
         int num2=Integer.parseInt(t2.getText());
 
-        if(e.getSource()==b1){
+        if(e.getSource()==b1)
+        {
             t3.setText(String.valueOf(num1+num2));
         }
-        if(e.getSource()==b2){
+        if(e.getSource()==b2)
+        {
             t3.setText(String.valueOf(num1-num2));
         }
-        if(e.getSource()==b3){
+        if(e.getSource()==b3)
+        {
             t3.setText(String.valueOf(num1*num2));
         }
-        if(e.getSource()==b4){
+        if(e.getSource()==b4)
+        {
             t3.setText(String.valueOf(num1/num2));
         }
-        if(e.getSource()==b5){
+        if(e.getSource()==b5)
+        {
             System.exit(0);
         }
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         BasicCal bs=new BasicCal();
     }
 

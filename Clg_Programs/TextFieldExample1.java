@@ -2,7 +2,7 @@ import javax.swing.*;
 
 class TextFieldExample1 {
     public static void main(String[] args) {
-        JFrame f = new JFrame("Example of TextField ");
+        JFrameDemo f = new JFrameDemo("Example of TextField ");
 
         JTextField t1, t2;
         t1 = new JTextField("Welcome");

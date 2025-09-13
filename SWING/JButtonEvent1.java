@@ -1,12 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class JButtonEvent1 extends JFrame implements ActionListener {
+public class JButtonEvent1 extends JFrameDemo implements ActionListener {
     JButton jb;
     java.awt.Container c;
     JButtonEvent1(){
         setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setBounds(100,100,600,500);
 
         c=getContentPane();

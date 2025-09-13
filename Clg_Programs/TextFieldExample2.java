@@ -6,7 +6,7 @@ public class TextFieldExample2 implements ActionListener {
     JButton b1, b2;
 
     TextFieldExample2() {
-        JFrame f = new JFrame("Add/Substract");
+        JFrameDemo f = new JFrameDemo("Add/Substract");
         tf1 = new JTextField();
         tf1.setBounds(100, 50, 150, 20);
         tf2 = new JTextField();

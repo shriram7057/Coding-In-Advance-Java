@@ -1,12 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class JFrameExample extends JFrame 
+public class JFrameExample extends JFrameDemo 
 {
     JFrameExample() 
     {
         setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         // setSize(600,500);
         // setLocation(100,100);
         setBounds(100, 100, 600, 500);

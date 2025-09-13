@@ -3,10 +3,10 @@ import java.awt.event.*;
 
 public class JComboBoxExampleAL
 { 
-    JFrame f; 
+    JFrameDemo f; 
 JComboBoxExampleAL()
 { 
-            f=new JFrame("JComboBox Action Listener Example"); 
+            f=new JFrameDemo("JComboBox Action Listener Example"); 
         final JLabel label = new JLabel();
 
         label.setHorizontalAlignment(JLabel.CENTER); 

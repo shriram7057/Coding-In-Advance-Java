@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
-class JToolTipTextDemo extends JFrame
+class JToolTipTextDemo extends JFrameDemo
 {
     JToolTipTextDemo()
     {

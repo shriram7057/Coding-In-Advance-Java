@@ -1,9 +1,9 @@
 import java.awt.*;
 import javax.swing.*;
-public class JRadioButtonEx extends JFrame {
+public class JRadioButtonEx extends JFrameDemo {
     JRadioButtonEx(){
 //        setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setBounds(100,100,600,500);
         java.awt.Container c=getContentPane();
         c.setLayout(null);

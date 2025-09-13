@@ -1,14 +1,14 @@
 import java.awt.*;
 import javax.swing.*;
 
-class MenubarDemo extends JFrame 
+class MenubarDemo extends JFrameDemo 
 {
     MenubarDemo() 
     {
         java.awt.Container c=getContentPane();
         setLayout(null);
         setSize(500, 500);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
 
         JMenuBar mbr = new JMenuBar();
 

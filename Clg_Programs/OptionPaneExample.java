@@ -1,10 +1,10 @@
 import javax.swing.*;
 public class OptionPaneExample
 { 
-	JFrame f;
+	JFrameDemo f;
 	OptionPaneExample()
 { 
-	f=new JFrame();
+	f=new JFrameDemo();
 	JOptionPane.showMessageDialog(f,"Hello, Welcome to Shriram Study Room!");
 }
 public static void main(String[] args)

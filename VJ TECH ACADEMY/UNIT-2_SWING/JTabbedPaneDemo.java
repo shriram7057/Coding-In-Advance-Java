@@ -43,7 +43,7 @@ class JPanel3 extends JPanel
 		add(b3);
 	}
 }
-class JTabbedPaneDemo extends JFrame 
+class JTabbedPaneDemo extends JFrameDemo 
 {
 	JTabbedPaneDemo()
 	{

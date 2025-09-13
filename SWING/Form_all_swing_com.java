@@ -1,14 +1,14 @@
 import javax.swing.*;
 import java.awt.*;
 
-class FormAllSwingComponents extends JFrame {
+class FormAllSwingComponents extends JFrameDemo {
 
     FormAllSwingComponents() 
     {                                         // JFrame all Methods
         setLayout(null);
         setSize(600, 600);
         setTitle("Swing Elements!");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE); 
         java.awt.Container c = getContentPane();
         c.setBackground(Color.YELLOW);
 

@@ -1,10 +1,10 @@
 import javax.swing.*; 
 public class OptionPaneExample3
 {
-    JFrame f; 
+    JFrameDemo f; 
 OptionPaneExample3()
 { 
-    f=new JFrame(); 
+    f=new JFrameDemo(); 
 
 JOptionPane.showInternalMessageDialog(f,"Successfully updated");
 

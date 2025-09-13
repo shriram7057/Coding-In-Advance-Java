@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-class JCheckboxEx extends JFrame 
+class JCheckboxEx extends JFrameDemo 
 {
     JCheckboxEx() 
     {

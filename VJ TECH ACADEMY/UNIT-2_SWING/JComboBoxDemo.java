@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
-class JComboBoxDemo extends JFrame
+class JComboBoxDemo extends JFrameDemo
 {
     JComboBoxDemo()
     {
@@ -22,6 +22,6 @@ class JComboBoxDemo extends JFrame
         j.setTitle("JComboBox");
         j.setVisible(true);
         j.setSize(500,500);
-        j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        j.setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
     }
 }

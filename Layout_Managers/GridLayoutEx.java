@@ -1,4 +1,3 @@
-// package LayoutManagers;
 import javax.swing.*;
 import java.awt.*;
 public class GridLayoutEx extends JFrame{
@@ -6,7 +5,7 @@ public class GridLayoutEx extends JFrame{
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100,100,600,300);
-        java.awt.Container c=getContentPane();
+        Container c=getContentPane();
 
         JButton b1=new JButton("Btn1");
         JButton b2=new JButton("Btn2");

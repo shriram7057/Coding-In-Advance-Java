@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-class JOptionPaneDemo extends JFrame implements ActionListener {
+class JOptionPaneDemo extends JFrameDemo implements ActionListener {
     JButton button;
 
     JOptionPaneDemo() {
@@ -20,7 +20,7 @@ class JOptionPaneDemo extends JFrame implements ActionListener {
         // Frame settings
         setTitle("JOptionPane Example");
         setSize(400, 300);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
     }
 
     @Override

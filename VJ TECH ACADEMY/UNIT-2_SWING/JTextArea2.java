@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-class JTextArea2 extends JFrame 
+class JTextArea2 extends JFrameDemo 
 {
     JTextArea2() 
     {

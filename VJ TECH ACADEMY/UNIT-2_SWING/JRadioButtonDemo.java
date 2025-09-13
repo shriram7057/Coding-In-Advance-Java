@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-class JRadioButtonDemo extends JFrame {
+class JRadioButtonDemo extends JFrameDemo {
     JRadioButtonDemo() 
     {
         setVisible(true);

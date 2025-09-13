@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-class Form extends JFrame implements ActionListener 
+class Form extends JFrameDemo implements ActionListener 
 {
     JButton b1, b2;
     JLabel l1, l2, l3, l4, l5, l6;
@@ -91,6 +91,6 @@ class Form extends JFrame implements ActionListener
         f.setVisible(true);
         f.setTitle("Form");
         f.setSize(400, 350);
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
     }
 }

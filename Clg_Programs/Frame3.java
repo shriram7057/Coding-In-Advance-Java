@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class Frame3 extends JFrame implements ActionListener {
+public class Frame3 extends JFrameDemo implements ActionListener {
     JLabel answer = new JLabel("");
     JPanel pane = new JPanel(); // Corrected the JPanel declaration
     JButton pressme = new JButton("Press Me");
@@ -11,7 +11,7 @@ public class Frame3 extends JFrame implements ActionListener {
     public Frame3() { // Added constructor parentheses
         super("Event Handler Demo");
         setBounds(100, 100, 300, 300);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
 
         java.awt.Container con = this.getContentPane(); // Corrected method name
 

@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
-public class JTextFieldExample extends JFrame 
+public class JTextFieldExample extends JFrameDemo 
 {
     JTextFieldExample()
     {
         setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setBounds(100,100,600,500);
         java.awt.Container c=getContentPane();
         c.setLayout(null);

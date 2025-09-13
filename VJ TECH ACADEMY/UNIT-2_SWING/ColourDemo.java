@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-class ColourDemo extends JFrame implements ActionListener 
+class ColourDemo extends JFrameDemo implements ActionListener 
 {
     JButton j1, j2, j3;
     java.awt.Container c;
@@ -34,7 +34,7 @@ class ColourDemo extends JFrame implements ActionListener
        
         setTitle("Colour Demo");
         setSize(500, 300);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setVisible(true);
     }
 

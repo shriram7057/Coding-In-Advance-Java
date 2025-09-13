@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.Color;
 import java.awt.event.*;
 
-class SwingEle extends JFrame implements ActionListener {
+class SwingEle extends JFrameDemo implements ActionListener {
     java.awt.Container c = getContentPane();
     JButton j1, j2, j3;
 
     SwingEle() {
         setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setBounds(100, 100, 600, 500);
         c.setLayout(null); // Add this to handle absolute positioning
 

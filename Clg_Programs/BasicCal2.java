@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class BasicCal2 extends JFrame implements ActionListener 
+class BasicCal2 extends JFrameDemo implements ActionListener 
 {
     JLabel l1 = new JLabel("Num1");
     JLabel l2 = new JLabel("Num2");
@@ -52,7 +52,7 @@ class BasicCal2 extends JFrame implements ActionListener
         b4.addActionListener(this);
 
         setSize(400, 500);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setVisible(true);
     }
 

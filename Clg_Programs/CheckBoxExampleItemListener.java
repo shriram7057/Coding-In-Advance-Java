@@ -4,7 +4,7 @@ public class CheckBoxExampleItemListener
 { 
     CheckBoxExampleItemListener()
 {
-     JFrame f= new JFrame("CheckBox Example with ItemListener"); 
+     JFrameDemo f= new JFrameDemo("CheckBox Example with ItemListener"); 
         final JLabel label = new JLabel(); 
         label.setHorizontalAlignment(JLabel.CENTER); 
 

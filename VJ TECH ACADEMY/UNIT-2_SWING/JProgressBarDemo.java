@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-class JProgressBarDemo extends JFrame {
+class JProgressBarDemo extends JFrameDemo {
     JProgressBar jpb;
 
     JProgressBarDemo() {
@@ -31,7 +31,7 @@ class JProgressBarDemo extends JFrame {
         j.setVisible(true);
         j.setTitle("JProgressBar Frame");
         j.setSize(500, 500);
-        j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        j.setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
 
         try {
             j.ChangeProgressBarValue();

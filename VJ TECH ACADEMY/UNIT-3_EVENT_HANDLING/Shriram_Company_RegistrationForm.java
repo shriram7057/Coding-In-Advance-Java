@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Shriram_Company_RegistrationForm extends JFrame implements ActionListener {
+public class Shriram_Company_RegistrationForm extends JFrameDemo implements ActionListener {
     // Components of the Form
     private JTextField companyNameField, addressField, emailField, phoneField;
     private JComboBox<String> companyTypeComboBox;

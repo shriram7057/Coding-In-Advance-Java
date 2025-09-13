@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-class Login extends JFrame
+class Login extends JFrameDemo
 {
     Login()
     {

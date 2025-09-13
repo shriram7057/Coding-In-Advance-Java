@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
-class JSliderDemo extends JFrame
+class JSliderDemo extends JFrameDemo
 {
     JSliderDemo()
     {

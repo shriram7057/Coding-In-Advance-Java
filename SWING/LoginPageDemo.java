@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-class LoginDemoPage extends JFrame {
+class LoginDemoPage extends JFrameDemo {
     LoginDemoPage() {
         java.awt.Container c = getContentPane();
         setLayout(null);

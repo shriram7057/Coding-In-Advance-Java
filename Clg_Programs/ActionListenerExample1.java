@@ -6,7 +6,7 @@ public class ActionListenerExample1
 {
      public static void main(String[] args)
 { 
-    JFrame f=new JFrame("ActionListener Example"); 
+    JFrameDemo f=new JFrameDemo("ActionListener Example"); 
     final Component tf=new TextArea(); 
     tf.setBounds(50,50, 150,20); 
     Button b=new Button("Click Here");

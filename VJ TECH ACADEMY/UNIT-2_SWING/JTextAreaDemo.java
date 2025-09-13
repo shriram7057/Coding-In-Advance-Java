@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
-class JTextAreaDemo extends JFrame
+class JTextAreaDemo extends JFrameDemo
 {
     JTextAreaDemo()
     {
@@ -16,6 +16,6 @@ class JTextAreaDemo extends JFrame
         j.setVisible(true);
         j.setTitle("JTextAreaFrame");
         j.setSize(500,500);
-        j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        j.setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
     }
 }

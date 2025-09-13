@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
-public class JTextAreaExample extends JFrame 
+public class JTextAreaExample extends JFrameDemo 
 {
     JTextAreaExample()
     {
         setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setBounds(100,100,600,500);
 
         java.awt.Container c=getContentPane();

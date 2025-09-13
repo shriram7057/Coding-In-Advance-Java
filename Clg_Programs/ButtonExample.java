@@ -3,7 +3,7 @@ public class ButtonExample
 {
      public static void main(String[] args) 
 {
-     JFrame f=new JFrame("Button Example"); 
+     JFrameDemo f=new JFrameDemo("Button Example"); 
         JButton b=new JButton("Click Here"); 
         b.setBounds(50,100,95,30); 
         f.add(b); 

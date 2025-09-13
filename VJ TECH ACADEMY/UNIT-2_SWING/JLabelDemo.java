@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
-class JLabelDemo extends JFrame
+class JLabelDemo extends JFrameDemo
 {
     JLabelDemo()
     {
@@ -18,6 +18,6 @@ class JLabelDemo extends JFrame
         j.setTitle("JLabel");
         j.setSize(500,500);
         j.setVisible(true);
-        j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        j.setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
     }
 }

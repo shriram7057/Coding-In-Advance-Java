@@ -1,7 +1,7 @@
 //JTable Class
 import javax.swing.*;
 import java.awt.*;
-class JTableDemo extends JFrame
+class JTableDemo extends JFrameDemo
 {
 	JTableDemo()
 	{

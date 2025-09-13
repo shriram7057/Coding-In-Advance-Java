@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-class JComboboxEx extends JFrame 
+class JComboboxEx extends JFrameDemo 
 {
     JComboboxEx() 
     {
@@ -9,7 +9,7 @@ class JComboboxEx extends JFrame
         setLayout(null);
         setSize(500, 500);
         c.setBackground(Color.CYAN);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
         setTitle("JComboBox Example");
 
         // String array with values

@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-class Practical3 extends JFrame implements ActionListener
+class Practical3 extends JFrameDemo implements ActionListener
 {
     JButton b1,b2;
     JLabel l1, l2, l3, l4, l5, l6, l7,l8,l9,l10;
@@ -19,7 +19,7 @@ class Practical3 extends JFrame implements ActionListener
         setTitle("Practice Program");
         setBounds(100, 100, 600, 600);
         c.setBackground(Color.CYAN);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrameDemo.EXIT_ON_CLOSE);
 
         l1 = new JLabel("Enter Your Name");
         l1.setBounds(50, 50, 100, 30);
