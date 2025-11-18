@@ -1,4 +1,12 @@
-# 🎯 Coding-In-Advance-Java
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="130" />
+</p>
+
+<h1 align="center">Advanced Java Development ☕⚙️</h1>
+
+<p align="center">
+  JDBC • Servlets • JSP • Spring Framework • Enterprise Applications  
+</p>
 
 Welcome to **Coding-In-Advance-Java** — a hands-on Java toolkit covering advanced concepts, GUI (AWT, Swing), layout managers, object-oriented programming and more.  
 
@@ -20,6 +28,17 @@ Clone the repository
 git clone https://github.com/shriram7057/Coding-In-Advance-Java.git
 
 ---
+## 📣 Connect with Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/shriram-lahane-12b692385/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" />
+  </a>
+
+  <a href="https://github.com/shriram7057" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" />
+  </a>
+</p>
 
 ## 🗂 Repository Structure
 
